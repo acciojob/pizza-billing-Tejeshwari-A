@@ -52,32 +52,32 @@ public class Pizza {
         int total = 0;
 
         if(isVeg) {
-            bill = "Base Price Of The Pizza: 300 \n";
+            bill = "Base Price Of The Pizza: 300\n";
             total += 300;
         }
         else {
-            bill = "Base Price Of The Pizza: 400 \n";
+            bill = "Base Price Of The Pizza: 400\n";
             total += 400;
         }
 
         if(cheeseFlag) {
-            bill += "Extra Cheese Added: 80 \n";
+            bill += "Extra Cheese Added: 80\n";
             total += 80;
         }
 
         if(toppingsFlag) {
             if(isVeg) {
-                bill += "Extra Toppings Added: 70 \n";
+                bill += "Extra Toppings Added: 70\n";
                 total += 70;
             }
             else {
-                bill += "Extra Cheese Added: 120 \n";
+                bill += "Extra Toppings Added: 120\n";
                 total += 120;
             }
         }
 
         if(takeawayFlag) {
-            bill += "Paperbag Added: 20 \n";
+            bill += "Paperbag Added: 20\n";
             total += 20;
         }
 
